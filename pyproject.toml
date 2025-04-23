@@ -1,0 +1,8 @@
+[project]
+name = "daq-edge-example"
+version = "0.1.0"
+description = "Examples of a DAQ edge application using ReductStore"
+requires-python = ">=3.12"
+dependencies = [
+    "reduct-py>=1.14.0, <2.0.0",
+]
