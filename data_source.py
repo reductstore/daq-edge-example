@@ -1,7 +1,6 @@
 from asyncio import sleep
 from random import randbytes, randint
 
-import aiohttp
 from reduct import Client
 
 BLOB = randbytes(100 * 1024)  # 100 KB of random bytes
@@ -25,7 +24,6 @@ async def send_data():
             )
 
             print(f"Record with score {score} written")
-
             await sleep(1)
 
 
